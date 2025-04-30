@@ -31,7 +31,7 @@ A JavaFX desktop application that uses AI to generate summaries from various inp
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ai-text-summarizer.git
+git clone https://github.com/lakshya9660/AI-Text-Summarizer-JAVA-Application.git
 cd ai-text-summarizer
 ```
 
