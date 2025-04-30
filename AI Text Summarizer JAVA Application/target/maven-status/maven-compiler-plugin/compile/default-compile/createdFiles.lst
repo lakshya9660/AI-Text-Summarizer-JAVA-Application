@@ -1,0 +1,6 @@
+com\textsummarizer\Main.class
+com\textsummarizer\service\HuggingFaceService.class
+com\textsummarizer\util\WebScraper.class
+com\textsummarizer\service\HuggingFaceService$SummarizationRequest.class
+com\textsummarizer\util\PdfProcessor.class
+com\textsummarizer\service\HuggingFaceService$SummarizationResponse.class

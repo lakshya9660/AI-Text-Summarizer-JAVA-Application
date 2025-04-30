@@ -1,0 +1,199 @@
+.root {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-background-color: #0a0a0a;
+}
+
+.label {
+    -fx-text-fill: #00ff9d;
+    -fx-font-weight: bold;
+}
+
+.text-area {
+    -fx-background-color: #151515;
+    -fx-text-fill: #00ff9d;
+    -fx-border-color: #00ff9d44;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, #00ff9d22, 10, 0, 0, 0);
+}
+
+.text-area .content {
+    -fx-background-color: #151515;
+}
+
+.text-area:focused {
+    -fx-border-color: #00ff9d;
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(gaussian, #00ff9d66, 15, 0, 0, 0);
+}
+
+.text-area .text {
+    -fx-fill: #00ff9d;
+}
+
+.button {
+    -fx-background-color: #151515;
+    -fx-text-fill: #00ff9d;
+    -fx-border-color: #00ff9d44;
+    -fx-border-width: 1px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, #00ff9d22, 10, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #00ff9d;
+    -fx-text-fill: #0a0a0a;
+    -fx-effect: dropshadow(gaussian, #00ff9d66, 15, 0, 0, 0);
+}
+
+.button:pressed {
+    -fx-background-color: #00cc7d;
+    -fx-border-color: #00cc7d;
+}
+
+.combo-box {
+    -fx-background-color: #151515;
+    -fx-border-color: #00ff9d44;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, #00ff9d22, 10, 0, 0, 0);
+}
+
+.combo-box .cell {
+    -fx-text-fill: #00ff9d;
+    -fx-background-color: #151515;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #202020;
+}
+
+.combo-box:focused {
+    -fx-border-color: #00ff9d;
+    -fx-border-width: 2px;
+}
+
+.combo-box .list-view {
+    -fx-background-color: #151515;
+    -fx-border-color: #00ff9d44;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #151515;
+    -fx-border-color: #00ff9d44;
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: #151515;
+    -fx-text-fill: #00ff9d;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #202020;
+}
+
+.text-field {
+    -fx-background-color: #151515;
+    -fx-text-fill: #00ff9d;
+    -fx-border-color: #00ff9d44;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, #00ff9d22, 10, 0, 0, 0);
+}
+
+.text-field:focused {
+    -fx-border-color: #00ff9d;
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(gaussian, #00ff9d66, 15, 0, 0, 0);
+}
+
+.split-pane {
+    -fx-background-color: #0a0a0a;
+    -fx-padding: 1px;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-background-color: #00ff9d44;
+    -fx-padding: 0 1px 0 1px;
+}
+
+.progress-indicator {
+    -fx-progress-color: #00ff9d;
+}
+
+.progress-indicator .spinner {
+    -fx-background-color: transparent;
+}
+
+.vbox {
+    -fx-spacing: 16px;
+    -fx-padding: 20px;
+    -fx-background-color: #0a0a0a;
+    -fx-border-color: #00ff9d22;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, #00ff9d22, 20, 0, 0, 0);
+}
+
+.hbox {
+    -fx-spacing: 8px;
+    -fx-alignment: center-left;
+}
+
+/* Scrollbar styling */
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: #151515;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #00ff9d44;
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #00ff9d88;
+}
+
+.scroll-bar:vertical .track,
+.scroll-bar:horizontal .track {
+    -fx-background-color: #151515;
+}
+
+/* Alert dialog styling */
+.dialog-pane {
+    -fx-background-color: #0a0a0a;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #00ff9d;
+}
+
+.dialog-pane:header .header-panel {
+    -fx-background-color: #151515;
+}
+
+.dialog-pane:header .header-panel .label {
+    -fx-text-fill: #00ff9d;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #151515;
+    -fx-text-fill: #00ff9d;
+    -fx-border-color: #00ff9d44;
+}
+
+/* Text prompt styling */
+.text-area .prompt-text,
+.text-field .prompt-text {
+    -fx-text-fill: #00ff9d44;
+} 
